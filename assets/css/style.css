@@ -7,14 +7,9 @@
     --primary-font: 'Poppins', 'Tahoma';
     --secondary-font: 'Red Rose', 'Century Gothic';
     --primary-color: #3a2620;
-    /* dark brown */
     --secondary-color: #aa9581;
-    /* light brown */
     --highlight-color: #416a8e;
-    /* blue */
     --highlight-color-light: #7a9fc2;
-    /* light blue */
-
 }
 
 
@@ -31,8 +26,13 @@ h3 {
     color: var(--primary-color);
 }
 
-p {
-    border: 2px solid var(--fourth-color);
+.secondary-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -50,14 +50,21 @@ p {
 }
 
 
-/*page element placement CSS for visualisation*/
 
-/*.container,
-.row {
-    border: 2px solid black;
+/*Google maps section*/
+#map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-}*/
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
