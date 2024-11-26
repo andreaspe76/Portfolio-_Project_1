@@ -13,6 +13,7 @@
 }
 
 
+
 /*Global styles*/
 body {
     font-family: var(--primary-font);
@@ -36,6 +37,7 @@ h3 {
 }
 
 
+
 /*Navbar*/
 #navbar {
     background-color: var(--primary-color);
@@ -47,6 +49,22 @@ h3 {
 
 .navbar-collapse {
     transition: height 0.5s ease;
+}
+
+
+
+/*Gallery*/
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery .col-md-4 {
+    display: flex;
+}
+
+#gallery div .card {
+    margin-bottom: .75rem;
 }
 
 
@@ -67,4 +85,4 @@ h3 {
     right: 0;
     width: 100%;
     height: 100%;
-  }
+}
