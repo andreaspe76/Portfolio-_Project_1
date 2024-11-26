@@ -27,71 +27,80 @@
 
 <!--Main body-->
 
-<body class="d-flex flex-column">
+<body class="d-flex flex-column min-vh-100">
 
 
     <!--Navbar-->
-    <nav class="navbar sticky-top navbar-expand-md bg-body-tertiary nav-section">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Navigation</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html"><img src="assets/favicon_io/favicon.ico"
+                    alt="Italian flag icon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav align-self-end">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="#">Meet Pollutri</a>
-                    <a class="nav-link" href="#map">Map</a>
-                    <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-                    <a class="nav-link" href="#contact">Contact</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modern Times</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-
     <!--Gallery section-->
     <main>
-        <div id="gallery" class="container">
-            <div class="row">
-                <div class="card col-12 col-lg-6"><img src="assets/images/Pollutri_piazza.webp"
-                        alt="A picture of a part of the main square of Pollutri">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Beach.webp" alt="A beach made of pebbles">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Butterfly.webp"
-                        alt="A butterfly resting on an old brick wall">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Church.webp"
-                        alt="A medieval catholic church in Italy">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Old_street_1.webp"
-                        alt="A narrow, cobble paved street, in Pollutri">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Old_street_2.webp"
-                        alt="Narrow Italian village street, looking to the sea, with traditional style balconies left and right">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Old_street_3.webp"
-                        alt="Narrow Italian village street, with various climbing plants climbing the walls of houses on the right side">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Pollutri_lanscape.webp"
-                        alt="Panoramic view of the vineyards and fields outside Pollutri">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Trabocchi.webp"
-                        alt="Picture of a traditional fishing platform in Italy called a trabocchi">
-                </div>
-                <div class="card col-12 col-lg-6"><img src="assets/images/Trabocchi_night.webp"
-                        alt="Picture of a traditional fishing platform in Italy called a trabocchi at night, with lights lighting up the sea">
+        <section bg-light py-4>
+            <div id="gallery" class="container">
+                <div class="row">
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Pollutri_piazza.webp"
+                            alt="A picture of a part of the main square of Pollutri">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Beach.webp" alt="A beach made of pebbles">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Butterfly.webp"
+                            alt="A butterfly resting on an old brick wall">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Church.webp"
+                            alt="A medieval catholic church in Italy">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Old_street_1.webp"
+                            alt="A narrow, cobble paved street, in Pollutri">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Old_street_2.webp"
+                            alt="Narrow Italian village street, looking to the sea, with traditional style balconies left and right">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Old_street_3.webp"
+                            alt="Narrow Italian village street, with various climbing plants climbing the walls of houses on the right side">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Pollutri_lanscape.webp"
+                            alt="Panoramic view of the vineyards and fields outside Pollutri">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Trabocchi.webp"
+                            alt="Picture of a traditional fishing platform in Italy called a trabocchi">
+                    </div>
+                    <div class="card col-12 col-lg-6"><img src="assets/images/Trabocchi_night.webp"
+                            alt="Picture of a traditional fishing platform in Italy called a trabocchi at night, with lights lighting up the sea">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
 
     <!--Footer / Contact section-->
-    <footer id="contact" class="sticky-bottom my-2">
-        <div class="container">
+    <footer id="contact">
+        <div class="container mt-auto">
             <div class="row justify-content-center">
                 <div class="col-12">Contact heading</div>
 

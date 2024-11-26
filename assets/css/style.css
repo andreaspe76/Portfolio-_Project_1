@@ -6,11 +6,15 @@
 :root {
     --primary-font: 'Poppins', 'Tahoma';
     --secondary-font: 'Red Rose', 'Century Gothic';
-    --primary-color: #50372c; /*brown*/
-    --secondary-color:  #be2f2c; /*terracotta-red*/
-    --highlight-color: #344f72; /*blue*/
-    --highlight-color-light:  #849CAE; /*light-blue*/
-    
+    --primary-color: #3a2620;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
+
 }
 
 
@@ -32,17 +36,23 @@ p {
 }
 
 
-/*iframe style*/
-.map iframe {
-    width: 100%;
-    height: 100%;
-    padding: 0 0
+/*Navbar*/
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 29px;
+}
+
+.navbar-collapse {
+    transition: height 0.5s ease;
 }
 
 
 /*page element placement CSS for visualisation*/
 
-.container,
+/*.container,
 .row {
     border: 2px solid black;
 }
@@ -50,4 +60,4 @@ p {
 .col-12 {
     border: 2px solid white;
     background-color: lightgrey;
-}
+}*/
