@@ -80,6 +80,7 @@ h3 {
     overflow: hidden;
     width: 100%;
     height: 200px;
+    border: solid 2px var(--highlight-color);
 }
 
 .iframe {
