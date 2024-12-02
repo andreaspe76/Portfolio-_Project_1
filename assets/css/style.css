@@ -115,6 +115,10 @@ h3 {
     padding-bottom: 2rem;
 }
 
+#contact .d-flex {
+    justify-content: space-around;
+}
+
 #contact h2 {
     color: white;
 }
