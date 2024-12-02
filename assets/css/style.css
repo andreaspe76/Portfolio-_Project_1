@@ -79,6 +79,8 @@ h3 {
 
 #gallery div .card {
     margin-bottom: .75rem;
+    justify-content: space-around;
+    border: none;
 }
 
 #gallery img {
