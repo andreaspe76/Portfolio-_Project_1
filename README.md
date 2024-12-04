@@ -1,131 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Visit Pollutri
 
-Welcome Andreas Pergantis,
+Visit Pollutri is a site aiming to introduce to it's audience, a part of Italy mainly unknown by most. It introduces the Abruzzo region, and more specifically Pollutri, a village in the region which is like a small central hub, near to many other interesting sites. The target audience are those who want something different from the classic Toscana and Roma tourist destinations, and who want to experience Italy, without the negatives that popular tourist destinations suffer from. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+My hope is that the site will be useful to those people, by providing basic information about Pollutri, some information for attractions in the near area of Pollutri to get people going, and pictures which will start up their curiosity for the region and challenge them to explore more. 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<img src="assets/readme-images/all-devices-white-resize.png">
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+   - The navigation Bar is featured in both pages, it is fully responsive and includes links to the Logo, Home page, Gallery and offers easy access to the contact information at the footer of the site.
+   - It is identical in both pages, fixed at the top for easy access without the need to scroll up and allows for easy navigation, without the use of the browser back button.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+<img src="assets/readme-images/navbar-large.png">
+<p align="center">
+  <img src="assets/readme-images/navbar-small.png">
+</p>       
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+- __Header section__
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+   - The header section consists of a small paragraph that serves as an intro to Pollutri and an image of the landscape outside the village.
 
-To log into the Heroku toolbelt CLI:
+<img src="assets/readme-images/header.png">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- __Main__
 
-### Connecting your Mongo database
+   - The main section consists of three parts:
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+   - The history of Pollutri, giving a few information about it's beginning.
+   - The today part, that has information of the modern Pollutri.
+   - The to-do part that gives some ideas about interesting sites in the area around Pollutri.
 
-------
+All three parts consist of a small paragraph and an image of the village or other sites in the area.
+The min section is valuable to the user, as it gives brief but interesting information about the past, present and life in Pollutri and the general area.
 
-## Release History
+<p align="center">
+<img src="assets/readme-images/history.png">
+</p>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**June 18, 2024,** Add Mongo back into template
+- __Map__
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+   - The map section is an iframe with a link to Pollutri in Google maps.
+   If the link is clicked on, it redirects to Google maps in a new browser tab.
 
-**May 28 2024:** Fix Mongo and Links installs
+The map is valuable to the user, as it gives them quick access to the area with interest points throu Google maps.
 
-**April 26 2024:** Update node version to 16
+<p align="center">
+<img src="assets/readme-images/map.png">
+</p>
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __Footer__
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+   - The footer has the contact information of the Pollutri municipality office.
+   - Social media links which open into new tabs when clicked on.
+   - A subscribe to a newsletter button that opens a modal that require the name and email of the visitor plus a small message which is not mandatory.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The footer like the nav bar is also fully responsive.
+The footer is valuable to the user, as it gives contact info for the Pollutri municipality in case they want to get in contact, quick access to the various social media that concern Pollutri and gives the possibility to subscribe to an informational newsletter if they so wish it.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ <p align="center">
+<img src="assets/readme-images/footer-large.png">
+<img src="assets/readme-images/footer-small.png">
+</p> 
+<p align="center">
+<img src="assets/readme-images/newsletter.png">
+</p>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __Gallery__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+   - The gallery provides the user with images, so that they can see interesting architecture and landmarks in the area.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<img src="assets/readme-images/gallery.png">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Validator Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+   - HTML
+     - No errors were found by the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+   - CSS
+     - No errors were found by the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Unfixed Bugs
 
-## FAQ about the uptime script
+There are no known unfixed bugs.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Deployment
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- The site was deployed to GitHub pages.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The live link can be found here - https://andreaspe76.github.io/Portfolio-_Project_1/index.html
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Credits 
 
-**Can I opt out?**
+### Content 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Information for the text in the Beginning card was taken from Wikipedia's Pollutri article.
+- Design ideas for the site were taken by both the "Love running" and "Boardwalk games projects"
+- The icons in  the navbar and footer were taken from [Font Awesome](https://fontawesome.com/)
+- The colors used in the site were taken from a photo using [Image color picker](https://imagecolorpicker.com/)
+- Bootstrap 5.3.3 was extensively used, as it offers a fast and easy way to implement various parts of the site, with aesthetically appealing results.
+- For the README file I used as a template mainly the example provided by Code institute.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+### Media
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- The photos used on the home and gallery page, belong to me.
 
----
 
-Happy coding!
+### Special thanks
+
+- Special thanks need to go to my code institute mentor, Rory Patrick Sheridan whose help and guidance was invaluable.
+  - He guided me with certain design ideas, for the web site.
+  - Helped me solve an issue I had with the newsletter modal, which did not validate that it's fields were correctly filled before submitting.
+  - Also helped me to use the code institute form validation page for the modal after being submitted.
+  - Finally he gave me examples and guidance in creating the README file.
