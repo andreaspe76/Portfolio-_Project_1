@@ -91,6 +91,11 @@ The footer is valuable to the user, as it gives contact info for the Pollutri mu
    - CSS
      - No errors were found by the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
 
+   - Lighthouse
+     - The pages were also validated using Lighthouse in the MS Edge dev tools.
+
+<img src="assets/readme-images/lighthouse-index.png">      
+
 
 ### Unfixed Bugs
 
