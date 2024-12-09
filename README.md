@@ -21,9 +21,9 @@ My hope is that the site will be useful to those people, by providing basic info
 </p>       
 
 
-- __Header section__
+- __Header__
 
-   - The header section consists of a small paragraph that serves as an intro to Pollutri and an image of the landscape outside the village.
+   - The header consists of a small paragraph that serves as an intro to Pollutri and an image of the landscape outside the village.
 
 <img src="assets/readme-images/header.png">
 
@@ -46,12 +46,13 @@ The min section is valuable to the user, as it gives brief but interesting infor
 
 - __Footer__
 
-   - The footer has the contact information of the Pollutri municipality office.
+   - The footer consists of the third section which is the Contact Us and includes the contact information of the Pollutri municipality office.
    - Social media links which open into new tabs when clicked on.
-   - A subscribe to a newsletter button that opens a modal that require the name and email of the visitor plus a small message which is not mandatory.
+   - A subscribe to a newsletter button that opens a modal that require the name and email of the user plus a message which is not mandatory.
+   - An iframe with Pollutri on google maps, that opens on a new page if clicked.
 
 The footer like the nav bar is also fully responsive.
-The footer is valuable to the user, as it gives contact info for the Pollutri municipality in case they want to get in contact, quick access to the various social media that concern Pollutri and gives the possibility to subscribe to an informational newsletter if they so wish it.
+The footer is valuable to the user, as it gives contact info for the Pollutri municipality in case they want to get in contact, quick access to the various social media that concern Pollutri, gives the possibility to subscribe to an informational newsletter if they so wish it and a map that helps the user find map information and points of interest easily.
 
  <p align="center">
 <img src="assets/readme-images/footer-large.png">
