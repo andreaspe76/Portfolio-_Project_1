@@ -13,7 +13,6 @@
 }
 
 
-
 /*Global styles*/
 body {
     font-family: var(--primary-font);
@@ -63,7 +62,6 @@ h3 {
 }
 
 
-
 /*Gallery*/
 #gallery .col-md-4 {
     display: flex;
@@ -78,7 +76,6 @@ h3 {
 #gallery img {
     padding: 0.75rem 0.75rem;
 }
-
 
 
 /*Google maps section*/
@@ -99,7 +96,6 @@ h3 {
     width: 100%;
     height: 100%;
 }
-
 
 
 /*Footer*/
