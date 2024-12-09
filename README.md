@@ -99,7 +99,10 @@ There are no known unfixed bugs.
 
 ## Deployment
 
-- The site was deployed to GitHub pages.
+- The site was deployed to GitHub pages. The steps to deploy are the following:
+   - In the GitHub repository, navigate to the Settings tab.
+   - From the source section drop-down menu, select the Master Branch.
+   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://andreaspe76.github.io/Portfolio-_Project_1/index.html
 
