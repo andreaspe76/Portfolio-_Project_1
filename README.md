@@ -44,18 +44,6 @@ The min section is valuable to the user, as it gives brief but interesting infor
 </p>
 
 
-- __Map__
-
-   - The map section is an iframe with a link to Pollutri in Google maps.
-   If the link is clicked on, it redirects to Google maps in a new browser tab.
-
-The map is valuable to the user, as it gives them quick access to the area with interest points throu Google maps.
-
-<p align="center">
-<img src="assets/readme-images/map.png">
-</p>
-
-
 - __Footer__
 
    - The footer has the contact information of the Pollutri municipality office.
