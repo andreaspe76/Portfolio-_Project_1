@@ -74,15 +74,21 @@ The footer is valuable to the user, as it gives contact info for the Pollutri mu
 ### Validator Testing
 
    - HTML
-     - No errors were found by the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+     - No errors were found on the index page by the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Findex.html)
+
+     - No errors were found on the gallery page by the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Fgallery.html)
 
    - CSS
-     - No errors were found by the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
+     - No errors were found on the index page by the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+
+     - No errors were found on the gallery page by the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandreaspe76.github.io%2FPortfolio-_Project_1%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
    - Lighthouse
      - The pages were also validated using Lighthouse in the MS Edge dev tools.
 
-<img src="assets/readme-images/lighthouse-index.png">      
+<img src="assets/readme-images/lighthouse-index.png"> 
+
+<img src="assets/readme-images/lighthouse-gallery.png">
 
 
 ### Unfixed Bugs
