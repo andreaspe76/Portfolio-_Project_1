@@ -7,7 +7,6 @@ My hope is that the site will be useful to those people, by providing basic info
 <img src="assets/readme-images/all-devices-white-resize.png">
 
 
-
 ## Features
 
 - __Navigation Bar__
@@ -92,10 +91,16 @@ The footer is valuable to the user, as it gives contact info for the Pollutri mu
 <img src="assets/readme-images/lighthouse-gallery.png">
 
 
+### Issues fixed during development
+
+- My Github commits were very big. With guidance from my mentor I improved them considerably.
+- Initialy the modal did not display the labels of it's fields. The issue was resolved by moving the code of the modal from inside the footer to under it. I didn't realize initially, that by including it on the footer, the styling of the footer was interfering with the styling of the modal.
+- I faced also another issue with the modal, were the form would submit without requiring the user to fill out their name or email correctly although the required attribute was used. The issue was fixed by moving the submit button inside the form element of the modal and not leaving it in the modal footer as is the default for bootstrap.
+
+
 ### Unfixed Bugs
 
-There are no known unfixed bugs.
-
+- There are no known unfixed bugs.
 
 
 ## Deployment
@@ -108,7 +113,6 @@ There are no known unfixed bugs.
 The live link can be found here - https://andreaspe76.github.io/Portfolio-_Project_1/index.html
 
 
-
 ## Credits 
 
 ### Content 
@@ -116,7 +120,7 @@ The live link can be found here - https://andreaspe76.github.io/Portfolio-_Proje
 - Information for the text in the Beginning card was taken from Wikipedia's Pollutri article.
 - Design ideas for the site were taken by both the "Love running" and "Boardwalk games projects"
 - The icons in  the navbar and footer were taken from [Font Awesome](https://fontawesome.com/)
-- The colors used in the site were taken from a photo using [Image color picker](https://imagecolorpicker.com/)
+- The colors used in the site were taken from a photo using [Image color picker](https://imagecolorpicker.com/) and then customized a little for better contrast.
 - Bootstrap 5.3.3 was extensively used, as it offers a fast and easy way to implement various parts of the site, with aesthetically appealing results.
 - For the README file I used as a template mainly the example provided by Code institute.
 
@@ -130,6 +134,6 @@ The live link can be found here - https://andreaspe76.github.io/Portfolio-_Proje
 
 - Special thanks need to go to my code institute mentor, Rory Patrick Sheridan whose help and guidance was invaluable.
   - He guided me with certain design ideas, for the web site.
-  - Helped me solve an issue I had with the newsletter modal, which did not validate that it's fields were correctly filled before submitting.
+  - Guided me at solving an issue I had with the newsletter modal, which did not validate that it's fields were correctly filled before submitting.
   - Also helped me to use the code institute form validation page for the modal after being submitted.
   - Finally he gave me examples and guidance in creating the README file.
